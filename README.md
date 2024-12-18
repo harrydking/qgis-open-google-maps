@@ -4,7 +4,7 @@
 
 A QGIS plugin that allows users to quickly open the current map view in Google Maps with a single click, maintaining the approximate zoom and centre point.
 
-![Plugin screenshot](screenshots\readme_sc.png)
+![Plugin screenshot](readme_sc.png)
 
 ## Features
 
