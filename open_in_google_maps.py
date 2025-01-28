@@ -40,6 +40,9 @@ import os
 import webbrowser
 
 class OpenInGoogleMapsPlugin:
+
+    # Definie functions to initiate plugin, remove plugin
+
     def __init__(self, iface):
         self.iface = iface
         self.plugin_dir = os.path.dirname(__file__)
@@ -61,6 +64,8 @@ class OpenInGoogleMapsPlugin:
             self.iface.removeToolBarIcon(action)
             self.iface.mainWindow().removeAction(action)
         self.actions.clear()
+
+    # Define plugin running functions
 
     def run(self):
         # Get current map canvas
@@ -94,7 +99,6 @@ class OpenInGoogleMapsPlugin:
         Calculate Google Maps zoom level based on QGIS map scale.
 
         """
-
         canvas = self.iface.mapCanvas()
         scale = canvas.scale()
         
@@ -172,5 +176,3 @@ class OpenInGoogleMapsPlugin:
             return 3
         else:
             return 2
-
-###

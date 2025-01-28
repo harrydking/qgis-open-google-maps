@@ -53,7 +53,3 @@ GNU General Public License v3.0
 ## Author
 
 Harry King
-
-## Disclaimer
-
-This plugin is not officially affiliated with Google Maps.
