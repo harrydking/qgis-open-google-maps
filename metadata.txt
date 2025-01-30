@@ -7,7 +7,7 @@
 name=Open Google Maps
 qgisMinimumVersion=3.0
 description=Opens current map extent in Google Maps
-version=1.0
+version=1.1
 author=Harry King
 email=nlu1vwm0@anonaddy.com
 
@@ -21,7 +21,7 @@ repository=https://github.com/harrydking/qgis-open-google-maps
 
 hasProcessingProvider=no
 
-changelog=1.0: Initial Release
+changelog=1.0: Initial Release, 1.1: Fixed icon
 
 tags=google, google maps, open, search
 
