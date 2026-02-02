@@ -6,9 +6,10 @@
  Opens the current map extent in Google Maps
                               -------------------
         begin                : 2024-12-17
-        copyright            : (C) 2024 Harry King
+        author               : Harry King
         email                : nlu1vwm0@anonaddy.com
         git sha              : $Format:%H$
+        updated              : 2026-02-02
  ***************************************************************************/
 
 /***************************************************************************
@@ -19,13 +20,6 @@
  *   (at your option) any later version.                                   *
  *                                                                         *
  ***************************************************************************/
-
-###
-
-Initialises the plugin
-
-###
-
 """
 
 # Import plugin

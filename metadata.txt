@@ -1,42 +1,46 @@
-# QGIS Open Google Maps Plugin Metadata
-# (C) 2024 Harry King
+# QGIS Open Google Maps Plugin - Metadata
+# Harry King, Updated 02.02.26
 
-# Mandatory Metadata:
+# MANDATORY METADATA:
 
 [general]
 name=Open Google Maps
 qgisMinimumVersion=3.0
-description=Opens current map extent in Google Maps
-version=1.1
+qgisMaximumVersion=4.99
+description=Opens current map extent in a mapping service of your choice!
+version=2.0
 author=Harry King
 email=nlu1vwm0@anonaddy.com
 
-about=This plugin opens the current map extent in Google Maps with a simple one click button
+about=Opens your current map canvas in 6 major web mapping services: Google Maps, Google Earth, Apple Maps, OSM, Bing, and Yandex.
+
+	Features:
+		- Simple one-click toolbar buttons.
+		- Accurate zoom and coordinate transformation.
+		- Toggle buttons on/off via "Web > Open Google Maps, Google Earth + Other Web Maps > Configure Maps" menu to keep your interface clean.
 
 tracker=https://github.com/harrydking/qgis-open-google-maps
 repository=https://github.com/harrydking/qgis-open-google-maps
+homepage=https://github.com/harrydking/qgis-open-google-maps
 
+supportsQt6=True
 
-# Recommended Metadata:
+# ADDITIONAL METADATA
 
 hasProcessingProvider=no
 
-changelog=1.0: Initial Release, 1.1: Fixed icon
+changelog=
+	2.0 (02.26): Updated to support QGIS versions using Qt 6, refined location mapping logic and added five additional web mapping services. Plugin name adjusted to reflect new features.
+	1.1 (02.25): Fixed Google Maps icon
+	1.0 (01.25): Plugin release
 
-tags=google, google maps, open, search
+tags=google, google maps, open, search, google earth, apple maps, osm, bing, Yandex, web mapping
 
-homepage=https://github.com/harrydking/qgis-open-google-maps
 category=Plugins
 icon=icon.png
 
-# experimental flag
 experimental=False
 
-# deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
-
-# plugin_dependencies=
-
-# category=Web
 
 server=False
